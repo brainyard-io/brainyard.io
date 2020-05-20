@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/nka/Projects/privat/solutions/brainyard/website",
+	"sourceRoot": "/home/nka/Projects/privat/solutions/brainyard/brainyard.io",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
