@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Brainyard.io</title>
+        <link>http://brainyard.io/posts/</link>
+        <description>Recent content in Posts on Brainyard.io</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>brainyard.io</copyright>
+        <lastBuildDate>Sat, 11 Apr 2020 08:47:11 +0100</lastBuildDate>
+        <atom:link href="http://brainyard.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>This service is still under construction :C</title>
+            <link>http://brainyard.io/posts/construction/</link>
+            <pubDate>Sat, 11 Apr 2020 08:47:11 +0100</pubDate>
+            
+            <guid>http://brainyard.io/posts/construction/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
+        </item>
+        
+    </channel>
+</rss>
