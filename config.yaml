@@ -1,0 +1,5 @@
+baseURL: https://brainyard.io/
+languageCode: en-us
+title: Brainyard.io
+theme: solidity
+publishDir: docs

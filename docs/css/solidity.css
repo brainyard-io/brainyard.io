@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Myeongjo&family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+nav {
+    background-color: transparent;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    color: white;
+}
+nav h1 {
+    font-size: 2.5em;
+    margin: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke; 
+    color: #293540;
+    padding-top: 80px;
+}
+#landing {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("/assets/cell_tissue.jpg");
+}
+#landing h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin: 20vh;
+    font-size: 10rem;
+    width: 50vw;
+    animation: left-in 1s;
+}
+
+@keyframes left-in {
+    0% {
+        margin-left: -100vw;
+    }
+    100% {
+        margin-left: 20vh;
+    }
+}
+
+#landing #scroller {
+    color: white;
+    position: relative;
+    margin-left: 48vw;
+    margin-bottom: 0vh;
+    width: 4vw;
+    animation: up-down 3s infinite;
+    z-index: 999;
+}
+
+@keyframes up-down {
+    0% {
+        margin-top: 5vh; 
+    }
+    50% {
+        margin-top: 0vh;
+    }
+    100% {
+        margin-top: 5vh;
+    }
+}
+
+#after h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 10rem;
+    text-align: center;
+    margin-top: 40vh;
+}
